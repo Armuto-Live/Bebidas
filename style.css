@@ -1,0 +1,231 @@
+@import url("https://fonts.googleapis.com/css2?family=Anton&family=Fira+Sans+Condensed:wght@600;800&family=Open+Sans:wght@300&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  color: #fff;
+}
+header {
+  width: 100vw;
+  height: 100px;
+
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.header__logo {
+  font-family: "Anton", sans-serif;
+  font-size: 80px;
+}
+.fondo-verde,
+.fondo-naranja {
+  margin-bottom: 100px;
+  height: 100vh;
+  width: 100vw;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  position: fixed;
+  transition: 1s ease-in-out;
+}
+
+.fondo-verde__contenedor,
+.fondo-naranja__contenedor {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+  position: relative;
+}
+
+.fondo-verde {
+  background: linear-gradient(to right, #00ad51 0%, #00ad51 50%, #006c32 100%);
+}
+
+.fondo-naranja {
+  background: linear-gradient(to right, #f3c200 0%, #ffc400 50%, #f59f00 100%);
+  transform: translateX(100%);
+}
+
+.active{
+    transform: translateX(0);
+}
+
+.fondo-verde__nombre_bebida {
+  position: absolute;
+  font-family: "Fira Sans Condensed", sans-serif;
+  font-size: 10rem;
+  z-index: -1;
+}
+
+.fondo-verde__lata {
+  position: absolute;
+  height: 250px;
+}
+
+.frutas {
+  position: absolute;
+}
+
+.fondo-verde__limon_uno {
+  width: 100px;
+  top: 3rem;
+  right: 0;
+}
+
+.fondo-verde__limon_dos {
+  width: 100px;
+  top: -10rem;
+  left: 0;
+  right: 0;
+  transform: rotateZ(25deg);
+  z-index: -1;
+}
+
+.fondo-verde__mandarina_uno {
+  width: 150px;
+  top: 1rem;
+  right: -2rem;
+}
+.fondo-verde__mandarina_dos {
+  width: 150px;
+  bottom: 3rem;
+  left: -2rem;
+  transform: rotateZ(40deg);
+  z-index: -1;
+}
+
+
+.hojas{
+    
+    display: flex;
+    justify-content: center;
+    align-content: center;
+
+    position: absolute;
+    bottom: 2rem;
+    left: 0;
+    right: 0;
+}
+.circulos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: .4rem;
+}
+.circulo__uno,.circulo__dos{
+    height: 2rem;
+    width: 2rem;
+    background-color: #fff;
+    opacity: .8;
+    border-radius: 50%;
+}
+.circulo__uno:hover,.circulo__dos:hover{
+    cursor: pointer;
+    opacity: 1;
+}
+
+@media (min-width: 600px) {
+  .fondo-verde__nombre_bebida {
+    font-size: 14rem;
+  }
+  .fondo-verde__lata {
+    height: 350px;
+  }
+  .fondo-verde__limon_uno {
+    width: 130px;
+    right: 1rem;
+    top: 4rem;
+  }
+  .fondo-verde__limon_dos {
+    width: 150px;
+    left: 10px;
+    right: 0;
+    top: -210px;
+    transform: rotateZ(45deg);
+  }
+  .fondo-verde__mandarina_uno {
+    width: 200px;
+    top: 1rem;
+    right: -2rem;
+  }
+  .fondo-verde__mandarina_dos {
+    width: 200px;
+    bottom: 5rem;
+    left: -1rem;
+    transform: rotateZ(45deg);
+  }
+}
+
+@media (min-width: 1024px) {
+  .fondo-verde__nombre_bebida {
+    font-size: 25rem;
+  }
+
+  .fondo-verde__lata {
+    height: 500px;
+  }
+  .fondo-verde__limon_uno {
+    width: 220px;
+    right: -2rem;
+    top: 4.5rem;
+  }
+  .fondo-verde__limon_dos {
+    width: 200px;
+    right: 0;
+    top: -19rem;
+    transform: rotateZ(45deg);
+  }
+  .fondo-verde__mandarina_uno {
+    width: 270px;
+    top: 2rem;
+    right: -4rem;
+  }
+  .fondo-verde__mandarina_dos {
+    width: 250px;
+    bottom: 8rem;
+    left: -2rem;
+    transform: rotateZ(40deg);
+  }
+}
+
+@media (min-width: 94rem) {
+  .fondo-verde__nombre_bebida {
+    font-size: 38rem;
+  }
+
+  .fondo-verde__lata {
+    height: 650px;
+  }
+  .fondo-verde__limon_uno {
+    width: 250px;
+    right: -1rem;
+    top: 8rem;
+  }
+  .fondo-verde__limon_dos {
+    width: 300px;
+    left: -2rem;
+    top: -25rem;
+    z-index: -1;
+    transform: rotateZ(45deg);
+  }
+
+  .fondo-verde__mandarina_uno {
+    width: 400px;
+    top: 1rem;
+    right: -4rem;
+  }
+  .fondo-verde__mandarina_dos {
+    width: 300px;
+    bottom: 10rem;
+    left: -1rem;
+    transform: rotateZ(30deg);
+  }
+
+}
