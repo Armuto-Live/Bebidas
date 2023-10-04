@@ -168,7 +168,7 @@ header {
 }
 
 .hojas .dinamic__tres{
-  right: 200px;
+  right: 62vw;
   top: 150px;
   transform: rotate(180deg);
   filter: blur(3px);
@@ -255,6 +255,42 @@ footer{
     left: -1rem;
     transform: rotateZ(45deg);
   }
+  .hojas .hoja__uno{
+    width: 130px;
+    height: 130px;
+  }
+  .hojas .dinamic__uno{
+    bottom: 2rem;
+  }
+  .hojas .hoja__dos{
+    width: 130px;
+    height: 130px;
+    bottom: 10px;
+  }
+  
+  .hojas .dinamic__dos{
+    bottom:25rem;
+  }
+
+  .hojas .hoja__tres{
+    width: 150px;
+    height: 150px;
+    
+    top: 10rem;
+    right: 3rem;
+  }
+  .hojas .dinamic__tres{
+    right: 60vw;
+    top: 7rem;
+  }
+  .hojas .hoja__cuatro{
+    width: 150px;
+    height: 150px;
+    bottom: 2rem;
+  }
+  .hojas .dinamic__cuatro{
+    right: 5rem;
+  }
 }
 
 @media (min-width: 1024px) {
@@ -287,39 +323,121 @@ footer{
     left: -2rem;
     transform: rotateZ(40deg);
   }
+
+  
+  .hojas .hoja__uno{
+    width: 180px;
+    height: 180px;
+  }
+  .hojas .dinamic__uno{
+    bottom: 2rem;
+  }
+  .hojas .hoja__dos{
+    width: 180px;
+    height: 180px;
+    bottom: 10px;
+  }
+  
+  .hojas .dinamic__dos{
+    bottom:25rem;
+  }
+
+  .hojas .hoja__tres{
+    width: 180px;
+    height: 180px;
+    
+    top: 4rem;
+    right: 15rem;
+  }
+  .hojas .dinamic__tres{
+    right: 60vw;
+    top: 7rem;
+  }
+  .hojas .hoja__cuatro{
+    width: 180px;
+    height: 180px;
+    bottom: 2rem;
+  }
+  .hojas .dinamic__cuatro{
+    width: 200px;
+    height: 200px;
+    right: 25rem;
+    
+  }
 }
 
 @media (min-width: 94rem) {
   .fondo-verde__nombre_bebida {
-    font-size: 30rem;
+    font-size: 25rem;
   }
 
   .fondo-verde__lata {
-    height: 550px;
+    height: 500px;
   }
   .fondo-verde__limon_uno {
     width: 200px;
     right: -1rem;
-    top: 6.7rem;
+    top: 5rem;
   }
   .fondo-verde__limon_dos {
     width: 200px;
     left: -.7rem;
-    top: -20rem;
+    top: -18rem;
     z-index: -1;
     transform: rotateZ(40deg);
   }
 
   .fondo-verde__mandarina_uno {
-    width: 400px;
+    width: 300px;
     top: 1rem;
     right: -4rem;
   }
   .fondo-verde__mandarina_dos {
-    width: 300px;
+    width: 200px;
     bottom: 10rem;
     left: -1rem;
     transform: rotateZ(30deg);
   }
 
+  .hojas .hoja__uno{
+    width: 250px;
+    height: 250px;
+  }
+  .hojas .dinamic__uno{
+    bottom: 2rem;
+  }
+  .hojas .hoja__dos{
+    width: 250px;
+    height: 250px;
+    bottom: 10px;
+  }
+  
+  .hojas .dinamic__dos{
+    bottom:25rem;
+  }
+
+  .hojas .hoja__tres{
+    width: 250px;
+    height: 250px;
+    
+    top: 4rem;
+    right: 15rem;
+  }
+  .hojas .dinamic__tres{
+    right: 60vw;
+    top: 7rem;
+  }
+  .hojas .hoja__cuatro{
+    width: 250px;
+    height: 250px;
+    bottom: 2rem;
+  }
+  .hojas .dinamic__cuatro{
+    width: 300px;
+    height: 300px;
+    right: 25rem;
+  }
+  .circulos{
+    bottom: 2rem;
+  }
 }
