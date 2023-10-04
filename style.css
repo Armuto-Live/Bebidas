@@ -132,7 +132,7 @@ header {
 }
 
 .hojas .dinamic__uno{
-  bottom: 16rem;
+  bottom: 22vh;
   transform: rotate(35deg);
   filter: blur(3px);
 }
@@ -142,18 +142,18 @@ header {
   height: 75px;
 
   position: absolute;
-  left: 2rem;
-  bottom: 13rem;
+  left: 100px;
+  bottom: 100px;
   transform: rotate(325deg);
   filter: blur(2.4px);
   transition: 1s ease-in-out;
 }
 
 .hojas .dinamic__dos{
-  left: 14rem;
-  bottom: 50vh;
+  left: 70vw;
+  bottom: 60vh;
   transform: rotate(35deg);
-  filter: blur(3px);
+  filter: blur(0);
 }
 
 .hojas .hoja__tres{
@@ -168,8 +168,8 @@ header {
 }
 
 .hojas .dinamic__tres{
-  right: 13rem;
-  top: 19rem;
+  right: 350px;
+  top: 200px;
   transform: rotate(180deg);
   filter: blur(3px);
 }
@@ -186,8 +186,10 @@ header {
   transition: 1s ease-in-out;
 }
 .hojas .dinamic__cuatro{
-  right: 2rem;
-  bottom: 15rem;
+  height: 120px;
+  width: 120px;
+  right: 130px;
+  bottom: 130px;
   transform: rotate(180deg);
   filter: blur(3px);
 }
@@ -217,7 +219,6 @@ header {
 footer{
   height: 5vh;
   position: absolute;
-  bottom: 1rem;
   left: 0;
   right: 0;
   text-align: center;
