@@ -125,7 +125,7 @@ header {
   height: 75px;
 
   position: absolute;
-  left: 3rem;
+  left: 40px;
   bottom: 50vh;
   transform: rotate(325deg);
   transition: 1s ease-in-out;
@@ -142,7 +142,7 @@ header {
   height: 75px;
 
   position: absolute;
-  left: 100px;
+  left: 60px;
   bottom: 100px;
   transform: rotate(325deg);
   filter: blur(2.4px);
@@ -168,8 +168,8 @@ header {
 }
 
 .hojas .dinamic__tres{
-  right: 350px;
-  top: 200px;
+  right: 200px;
+  top: 150px;
   transform: rotate(180deg);
   filter: blur(3px);
 }
@@ -188,9 +188,9 @@ header {
 .hojas .dinamic__cuatro{
   height: 120px;
   width: 120px;
-  right: 130px;
-  bottom: 130px;
-  transform: rotate(180deg);
+  right: 30px;
+  bottom: 100px;
+  transform: rotate(220deg);
   filter: blur(3px);
 }
 
@@ -201,7 +201,7 @@ header {
     gap: .4rem;
     position: absolute;
     left: 0;
-    bottom: 4rem;
+    bottom: 5rem;
     right: 0;
 }
 .circulo__uno,.circulo__dos{
@@ -219,6 +219,7 @@ header {
 footer{
   height: 5vh;
   position: absolute;
+  bottom: 1rem;
   left: 0;
   right: 0;
   text-align: center;
